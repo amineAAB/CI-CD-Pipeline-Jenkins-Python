@@ -18,3 +18,13 @@ def ecart_type(liste):
     variance = sum(ecarts) / len(liste)
     return variance ** 0.5
 
+def minimum(liste):
+    if len(liste) == 0:
+        return None
+    return min(liste)
+
+def maximum(liste):
+    if len(liste) == 0:
+        return None
+    return max(liste)
+
